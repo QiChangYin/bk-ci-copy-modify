@@ -58,6 +58,7 @@ func main() {
 		systemutil.ExitProcess(1)
 	}
 
+
 	initLog()
 	defer func() {
 		if err := recover(); err != nil {
